@@ -726,6 +726,13 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .navigation {
   margin-bottom: 0;
   padding: 10px 0;
+  position: sticky; /* or use fixed */
+  top: 0;
+  width: 100%;
+  background-color: white; /* Ensure it has a background */
+  z-index: 1000; /* Keeps it above other elements */
+  
+
 }
 .navigation .menu-title {
   display: none;
