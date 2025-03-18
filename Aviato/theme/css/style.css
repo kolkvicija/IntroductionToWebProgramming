@@ -679,6 +679,12 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .cart-dropdown .media .pull-left {
   padding-right: 15px;
 }
+
+.team-member img{
+  height: 10em;
+  width: auto;
+  border-radius: 5%;
+}
 .cart-dropdown img {
   width: 60px;
 }
