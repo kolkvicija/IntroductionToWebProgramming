@@ -58,7 +58,7 @@ body {
 
 p {
   font-family: "Poppins", sans-serif;
-  color: #757575;
+  color: #dcdcdc;
   font-size: 15px;
 }
 
@@ -312,7 +312,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .category-box .content h3 {
   margin: 0;
-  color: #333;
+  color: #f0f0f0;
   font-size: 20px;
   font-weight: 500;
 }
@@ -374,9 +374,6 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   bottom: 0;
 }
 
-.page-wrapper {
-  padding: 70px 0;
-}
 
 .social-media-icons ul li {
   display: inline-block;
@@ -777,6 +774,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .navigation .container {
   position: relative;
 }
+
 .navigation .nav .open > a {
   border: 1px solid transparent;
   background-color: transparent;

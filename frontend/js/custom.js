@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   var app = $.spapp({
     defaultView  : "home",
-    templateDir  : "./tpl/",
+    templateDir  : "./frontend/tpl/",
     pageNotFound : "error_404"
   });
 
