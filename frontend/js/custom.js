@@ -2,15 +2,14 @@ $(document).ready(function() {
 
   $("main#spapp > section").height($(document).height() - 60);
 
-  var app = $.spapp({pageNotFound : 'error_404'}); // initialize
+  var app = $.spapp({
+    defaultView  : "home",
+    templateDir  : "./tpl/",
+    pageNotFound : "error_404"
+  });
 
   // define routes
-  app.route({
-    view: 'view_1',
-    onCreate: function() { $("#view_1").append($.now()+': Written on create<br/>'); },
-    onReady: function() { $("#view_1").append($.now()+': Written when ready<br/>'); }
-  });
-  app.route({view: 'view_2', load: 'view_2.html' });
+
   app.route({
     view: 'home', 
     load: 'body.html'
@@ -27,7 +26,10 @@ $(document).ready(function() {
     view: 'checkout', 
     load: 'checkout.html'
   });
-  
+  app.route({
+    view: 'shop', 
+    load: 'shop.html'
+  });
 
   // run app
   app.run();
