@@ -1,2 +1,0 @@
-# IntroductionToWebProgramming
-**Hello everyone!**
